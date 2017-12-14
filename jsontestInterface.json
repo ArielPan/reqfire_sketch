@@ -1,0 +1,148 @@
+{
+    "groups": [
+      {
+        "object": "5",
+        "name": "Events",
+        "useCases": [
+          {
+            "object": "10",
+            "name": "Create an account",
+            ifaces: [
+              {
+                object: "12",
+                name: "Home",
+                persistent_id: "10"
+              },
+              {
+                object: "12",
+                name: "Sign In",
+                persistent_id: "14"
+              },
+              {
+                object: "12",
+                name: "New account mail",
+                persistent_id: "19"
+              }
+            ]
+          },
+          {
+            object: "10",
+            name: "See local events",
+            ifaces: [
+              {
+                object: "12",
+                name: "Home",
+                persistent_id: "10"
+              },
+              {
+                object: "12",
+                name: "Event search",
+                persistent_id: "22"
+              },
+              {
+                object: "12",
+                name: "Local Events",
+                persistent_id: "26"
+              },
+              {
+                object: "12",
+                name: "Sign up to event",
+                persistent_id: "41"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        object: "5",
+        name: "Membership",
+        useCases: [
+          {
+            object: "10",
+            name: "See guest list",
+            ifaces: [
+              {
+                object: "12",
+                name: "Host dashboard",
+                persistent_id: "31"
+              },
+              {
+                object: "12",
+                name: "Guest list details",
+                persistent_id: "8"
+              }
+            ]
+          },
+          {
+            object: "10",
+            name: "See friends going to event",
+            ifaces: [
+              {
+                object: "12",
+                name: "Event Details",
+                persistent_id: "47"
+              },
+              {
+                object: "12",
+                name: "Event attendees",
+                persistent_id: "13"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    ifaces: [
+      {
+        object: "12",
+        name: "Home",
+        persistent_id: "10"
+      },
+      {
+        object: "12",
+        name: "Sign In",
+        persistent_id: "14"
+      },
+      {
+        object: "12",
+        name: "New account mail",
+        persistent_id: "19"
+      },
+  
+      {
+        object: "12",
+        name: "Event search",
+        persistent_id: "22"
+      },
+      {
+        object: "12",
+        name: "Local Events",
+        persistent_id: "26"
+      },
+      {
+        object: "12",
+        name: "Sign up to event",
+        persistent_id: "41"
+      },
+      {
+        object: "12",
+        name: "Host dashboard",
+        persistent_id: "31"
+      },
+      {
+        object: "12",
+        name: "Guest list details",
+        persistent_id: "8"
+      },
+      {
+        object: "12",
+        name: "Event Details",
+        persistent_id: "47"
+      },
+      {
+        object: "12",
+        name: "Event attendees",
+        persistent_id: "13"
+      }
+    ]
+  }
