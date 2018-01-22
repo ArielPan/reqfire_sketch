@@ -53,7 +53,7 @@
                 {
                   "object": "11",
                    "name": "Main Flow",
-                steps: [
+                "steps": [
                  {
                   "object": "9",
                   "name": "Step1",
