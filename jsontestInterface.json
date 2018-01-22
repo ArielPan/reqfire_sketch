@@ -7,51 +7,96 @@
           {
             "object": "10",
             "name": "Create an account",
-            "ifaces": [
-              {
-                "object": "12",
-                "name": "Home",
-                "persistent_id": "10"
-              },
-              {
-                "object": "12",
-                "name": "Sign In",
-                "persistent_id": "14"
-              },
-              {
-                "object": "12",
-                "name": "New account mail",
-                "persistent_id": "19"
-              }
-            ]
+            "flows": [
+            {
+              "object": "11",
+              "name": "Main Flow",
+              "steps": [
+                {
+                  "object": "9",
+                  "name": "Step1",
+                  "persistent_id": "123",
+                  "iface": {
+                    "persistent_id": "10",
+                    "object": "12",
+                    "name": "Home"
+                  } 
+                },
+                {
+                  "object": "9",
+                  "name": "Step2",
+                  "persistent_id": "541",
+                  "iface": {
+                    "persistent_id": "14",
+                    "object": "12",
+                    "name": "Sign In"
+                  } 
+                },
+                {
+                  "object": "9",
+                  "name": "Step3",
+                  "persistent_id": "192",
+                  "iface": {
+                    "persistent_id": "19",
+                    "object": "12",
+                    "name": "New account mail"
+                  } 
+                }
+              ]
+            }
+          ]
           },
           {
             "object": "10",
             "name": "See local events",
-            "ifaces": [
-              {
-                "object": "12",
-                "name": "Home",
-                "persistent_id": "10"
-              },
-              {
-                "object": "12",
-                "name": "Event search",
-                "persistent_id": "22"
-              },
-              {
-                "object": "12",
-                "name": "Local Events",
-                "persistent_id": "26"
-              },
-              {
-                "object": "12",
-                "name": "Sign up to event",
-                "persistent_id": "41"
-              }
-            ]
-          }
-        ]
+            "flow": [
+                {
+                  "object": "11",
+                   "name": "Main Flow",
+                steps: [
+                 {
+                  "object": "9",
+                  "name": "Step1",
+                  "persistent_id": "123",
+                  "iface": {
+                    "object": "12",
+                    "name": "Home",
+                    "persistent_id": "10"
+                  } 
+                },
+                {
+                  "object": "9",
+                  "name": "Step1",
+                  "persistent_id": "123",
+                  "iface": {
+                    "object": "12",
+                    "name": "Event search",
+                    "persistent_id": "22"
+                  } 
+                },
+                {
+                  "object": "9",
+                  "name": "Step2",
+                  "persistent_id": "541",
+                  "iface": {
+                    "object": "12",
+                    "name": "Local Events",
+                    "persistent_id": "26"
+                  } 
+                },
+                {
+                  "object": "9",
+                  "name": "Step3",
+                  "persistent_id": "192",
+                  "iface": {
+                    "object": "12",
+                    "name": "Sign up to event",
+                    "persistent_id": "41"
+                  } 
+                }
+              ]
+            }
+          ]
       },
       {
         "object": "5",
@@ -60,37 +105,66 @@
           {
             "object": "10",
             "name": "See guest list",
-            "ifaces": [
-              {
-                "object": "12",
-                "name": "Host dashboard",
-                "persistent_id": "31"
-              },
-              {
-                "object": "12",
-                "name": "Guest list details",
-                "persistent_id": "8"
-              }
-            ]
+            "flows": [
+            {
+              "object": "11",
+              "name": "Main Flow",
+              "steps": [
+                {
+                  "object": "9",
+                  "name": "Host dashboard",
+                  "persistent_id": "412",
+                  "iface": {
+                    "persistent_id": "31",
+                    "object": "12",
+                    "name": "Host dashboard"
+                  } 
+                },
+                {
+                  "object": "9",
+                  "persistent_id": "413",
+                  "iface": {
+                    "persistent_id": "8",
+                    "object": "12",
+                    "name": "Guest list details",
+                  } 
+                }
+              ]
+            }
+          ]
           },
           {
             "object": "10",
             "name": "See friends going to event",
-            "ifaces": [
-              {
-                "object": "12",
-                "name": "Event Details",
-                "persistent_id": "47"
-              },
-              {
-                "object": "12",
-                "name": "Event attendees",
-                "persistent_id": "13"
-              }
-            ]
-          }
-        ]
-      }
+            "flows": [
+            {
+              "object": "11",
+              "name": "Main Flow",
+              "steps": [
+                {
+                  "object": "9",
+                  "persistent_id": "390",
+                  "iface": {
+                    "persistent_id": "47",
+                    "object": "12",
+                    "name": "Event Details",
+                  } 
+                },
+                {
+                  "object": "9",
+                  "persistent_id": "317",
+                  "iface": {
+                    "persistent_id": "13",
+                    "object": "12",
+                    "name": "Event attendees",
+                  } 
+                }
+              ] 
+            }
+          ]
+        }
+      ]
+    }
     ],
     "ifaces": [
       {
