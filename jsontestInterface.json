@@ -49,7 +49,7 @@
           {
             "object": "10",
             "name": "See local events",
-            "flow": [
+            "flows": [
                 {
                   "object": "11",
                   "name": "Main Flow",
