@@ -8,7 +8,7 @@
             "object": "10",
             "name": "Create an account",
             "flows": [
-            {
+             {
               "object": "11",
               "name": "Main Flow",
               "steps": [
@@ -52,7 +52,7 @@
             "flow": [
                 {
                   "object": "11",
-                   "name": "Main Flow",
+                  "name": "Main Flow",
                 "steps": [
                  {
                   "object": "9",
@@ -97,7 +97,9 @@
               ]
             }
           ]
-      },
+        }
+      }
+     },
       {
         "object": "5",
         "name": "Membership",
@@ -219,4 +221,4 @@
         "persistent_id": "13"
       }
     ]
-  }
+  };
