@@ -59,9 +59,9 @@
                   "name": "Step1",
                   "persistent_id": "123",
                   "iface": {
+                    "persistent_id": "10",
                     "object": "12",
-                    "name": "Home",
-                    "persistent_id": "10"
+                    "name": "Home"
                   } 
                 },
                 {
@@ -69,9 +69,10 @@
                   "name": "Step1",
                   "persistent_id": "123",
                   "iface": {
+                    "persistent_id": "22",
                     "object": "12",
-                    "name": "Event search",
-                    "persistent_id": "22"
+                    "name": "Event search"
+                    
                   } 
                 },
                 {
@@ -79,9 +80,9 @@
                   "name": "Step2",
                   "persistent_id": "541",
                   "iface": {
+                    "persistent_id": "26",
                     "object": "12",
-                    "name": "Local Events",
-                    "persistent_id": "26"
+                    "name": "Local Events"  
                   } 
                 },
                 {
@@ -89,9 +90,9 @@
                   "name": "Step3",
                   "persistent_id": "192",
                   "iface": {
+                    "persistent_id": "41",
                     "object": "12",
-                    "name": "Sign up to event",
-                    "persistent_id": "41"
+                    "name": "Sign up to event"
                   } 
                 }
               ]
@@ -221,4 +222,4 @@
         "persistent_id": "13"
       }
     ]
-  };
+  }
